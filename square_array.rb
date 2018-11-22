@@ -4,3 +4,7 @@ def square_array(array)
   array.each{|ar| ar1<< a*a}
   return ar1
 end
+
+numbers = [1,2,3]
+ 
+square_array(numbers)
